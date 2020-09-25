@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADAD3A2E2514FBFB00C14AC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAD3A2D2514FBFB00C14AC9 /* AppDelegate.swift */; };
+		ADAD3A302514FBFB00C14AC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAD3A2F2514FBFB00C14AC9 /* SceneDelegate.swift */; };
+		ADAD3A322514FBFB00C14AC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAD3A312514FBFB00C14AC9 /* ViewController.swift */; };
+		ADAD3A372514FC0100C14AC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADAD3A362514FC0100C14AC9 /* Assets.xcassets */; };
+		ADAD3A3A2514FC0100C14AC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAD3A382514FC0100C14AC9 /* LaunchScreen.storyboard */; };
+		ADAD3A452514FC0100C14AC9 /* realchromeviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAD3A442514FC0100C14AC9 /* realchromeviewTests.swift */; };
+		ADAD3A502514FC0100C14AC9 /* realchromeviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAD3A4F2514FC0100C14AC9 /* realchromeviewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADAD3A412514FC0100C14AC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADAD3A222514FBFB00C14AC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADAD3A292514FBFB00C14AC9;
+			remoteInfo = realchromeview;
+		};
+		ADAD3A4C2514FC0100C14AC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADAD3A222514FBFB00C14AC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADAD3A292514FBFB00C14AC9;
+			remoteInfo = realchromeview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADAD3A2A2514FBFB00C14AC9 /* realchromeview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = realchromeview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAD3A2D2514FBFB00C14AC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADAD3A2F2514FBFB00C14AC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ADAD3A312514FBFB00C14AC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADAD3A362514FC0100C14AC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADAD3A392514FC0100C14AC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADAD3A3B2514FC0100C14AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADAD3A402514FC0100C14AC9 /* realchromeviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = realchromeviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAD3A442514FC0100C14AC9 /* realchromeviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = realchromeviewTests.swift; sourceTree = "<group>"; };
+		ADAD3A462514FC0100C14AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADAD3A4B2514FC0100C14AC9 /* realchromeviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = realchromeviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAD3A4F2514FC0100C14AC9 /* realchromeviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = realchromeviewUITests.swift; sourceTree = "<group>"; };
+		ADAD3A512514FC0100C14AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADAD3A272514FBFB00C14AC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAD3A3D2514FC0100C14AC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAD3A482514FC0100C14AC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADAD3A212514FBFB00C14AC9 = {
+			isa = PBXGroup;
+			children = (
+				ADAD3A2C2514FBFB00C14AC9 /* realchromeview */,
+				ADAD3A432514FC0100C14AC9 /* realchromeviewTests */,
+				ADAD3A4E2514FC0100C14AC9 /* realchromeviewUITests */,
+				ADAD3A2B2514FBFB00C14AC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADAD3A2B2514FBFB00C14AC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADAD3A2A2514FBFB00C14AC9 /* realchromeview.app */,
+				ADAD3A402514FC0100C14AC9 /* realchromeviewTests.xctest */,
+				ADAD3A4B2514FC0100C14AC9 /* realchromeviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADAD3A2C2514FBFB00C14AC9 /* realchromeview */ = {
+			isa = PBXGroup;
+			children = (
+				ADAD3A2D2514FBFB00C14AC9 /* AppDelegate.swift */,
+				ADAD3A2F2514FBFB00C14AC9 /* SceneDelegate.swift */,
+				ADAD3A312514FBFB00C14AC9 /* ViewController.swift */,
+				ADAD3A362514FC0100C14AC9 /* Assets.xcassets */,
+				ADAD3A382514FC0100C14AC9 /* LaunchScreen.storyboard */,
+				ADAD3A3B2514FC0100C14AC9 /* Info.plist */,
+			);
+			path = realchromeview;
+			sourceTree = "<group>";
+		};
+		ADAD3A432514FC0100C14AC9 /* realchromeviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADAD3A442514FC0100C14AC9 /* realchromeviewTests.swift */,
+				ADAD3A462514FC0100C14AC9 /* Info.plist */,
+			);
+			path = realchromeviewTests;
+			sourceTree = "<group>";
+		};
+		ADAD3A4E2514FC0100C14AC9 /* realchromeviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADAD3A4F2514FC0100C14AC9 /* realchromeviewUITests.swift */,
+				ADAD3A512514FC0100C14AC9 /* Info.plist */,
+			);
+			path = realchromeviewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADAD3A292514FBFB00C14AC9 /* realchromeview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADAD3A542514FC0200C14AC9 /* Build configuration list for PBXNativeTarget "realchromeview" */;
+			buildPhases = (
+				ADAD3A262514FBFB00C14AC9 /* Sources */,
+				ADAD3A272514FBFB00C14AC9 /* Frameworks */,
+				ADAD3A282514FBFB00C14AC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = realchromeview;
+			productName = realchromeview;
+			productReference = ADAD3A2A2514FBFB00C14AC9 /* realchromeview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADAD3A3F2514FC0100C14AC9 /* realchromeviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADAD3A572514FC0200C14AC9 /* Build configuration list for PBXNativeTarget "realchromeviewTests" */;
+			buildPhases = (
+				ADAD3A3C2514FC0100C14AC9 /* Sources */,
+				ADAD3A3D2514FC0100C14AC9 /* Frameworks */,
+				ADAD3A3E2514FC0100C14AC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADAD3A422514FC0100C14AC9 /* PBXTargetDependency */,
+			);
+			name = realchromeviewTests;
+			productName = realchromeviewTests;
+			productReference = ADAD3A402514FC0100C14AC9 /* realchromeviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADAD3A4A2514FC0100C14AC9 /* realchromeviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADAD3A5A2514FC0200C14AC9 /* Build configuration list for PBXNativeTarget "realchromeviewUITests" */;
+			buildPhases = (
+				ADAD3A472514FC0100C14AC9 /* Sources */,
+				ADAD3A482514FC0100C14AC9 /* Frameworks */,
+				ADAD3A492514FC0100C14AC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADAD3A4D2514FC0100C14AC9 /* PBXTargetDependency */,
+			);
+			name = realchromeviewUITests;
+			productName = realchromeviewUITests;
+			productReference = ADAD3A4B2514FC0100C14AC9 /* realchromeviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADAD3A222514FBFB00C14AC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					ADAD3A292514FBFB00C14AC9 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					ADAD3A3F2514FC0100C14AC9 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = ADAD3A292514FBFB00C14AC9;
+					};
+					ADAD3A4A2514FC0100C14AC9 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = ADAD3A292514FBFB00C14AC9;
+					};
+				};
+			};
+			buildConfigurationList = ADAD3A252514FBFB00C14AC9 /* Build configuration list for PBXProject "realchromeview" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADAD3A212514FBFB00C14AC9;
+			productRefGroup = ADAD3A2B2514FBFB00C14AC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADAD3A292514FBFB00C14AC9 /* realchromeview */,
+				ADAD3A3F2514FC0100C14AC9 /* realchromeviewTests */,
+				ADAD3A4A2514FC0100C14AC9 /* realchromeviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADAD3A282514FBFB00C14AC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAD3A3A2514FC0100C14AC9 /* LaunchScreen.storyboard in Resources */,
+				ADAD3A372514FC0100C14AC9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAD3A3E2514FC0100C14AC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAD3A492514FC0100C14AC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADAD3A262514FBFB00C14AC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAD3A322514FBFB00C14AC9 /* ViewController.swift in Sources */,
+				ADAD3A2E2514FBFB00C14AC9 /* AppDelegate.swift in Sources */,
+				ADAD3A302514FBFB00C14AC9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAD3A3C2514FC0100C14AC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAD3A452514FC0100C14AC9 /* realchromeviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAD3A472514FC0100C14AC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAD3A502514FC0100C14AC9 /* realchromeviewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADAD3A422514FC0100C14AC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADAD3A292514FBFB00C14AC9 /* realchromeview */;
+			targetProxy = ADAD3A412514FC0100C14AC9 /* PBXContainerItemProxy */;
+		};
+		ADAD3A4D2514FC0100C14AC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADAD3A292514FBFB00C14AC9 /* realchromeview */;
+			targetProxy = ADAD3A4C2514FC0100C14AC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADAD3A382514FC0100C14AC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADAD3A392514FC0100C14AC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADAD3A522514FC0100C14AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADAD3A532514FC0200C14AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADAD3A552514FC0200C14AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = realchromeview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ryanGoettl.realchromeview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADAD3A562514FC0200C14AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = realchromeview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ryanGoettl.realchromeview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADAD3A582514FC0200C14AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = realchromeviewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ryanGoettl.realchromeviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/realchromeview.app/realchromeview";
+			};
+			name = Debug;
+		};
+		ADAD3A592514FC0200C14AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = realchromeviewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ryanGoettl.realchromeviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/realchromeview.app/realchromeview";
+			};
+			name = Release;
+		};
+		ADAD3A5B2514FC0200C14AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = realchromeviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ryanGoettl.realchromeviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = realchromeview;
+			};
+			name = Debug;
+		};
+		ADAD3A5C2514FC0200C14AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = realchromeviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ryanGoettl.realchromeviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = realchromeview;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADAD3A252514FBFB00C14AC9 /* Build configuration list for PBXProject "realchromeview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAD3A522514FC0100C14AC9 /* Debug */,
+				ADAD3A532514FC0200C14AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADAD3A542514FC0200C14AC9 /* Build configuration list for PBXNativeTarget "realchromeview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAD3A552514FC0200C14AC9 /* Debug */,
+				ADAD3A562514FC0200C14AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADAD3A572514FC0200C14AC9 /* Build configuration list for PBXNativeTarget "realchromeviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAD3A582514FC0200C14AC9 /* Debug */,
+				ADAD3A592514FC0200C14AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADAD3A5A2514FC0200C14AC9 /* Build configuration list for PBXNativeTarget "realchromeviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAD3A5B2514FC0200C14AC9 /* Debug */,
+				ADAD3A5C2514FC0200C14AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADAD3A222514FBFB00C14AC9 /* Project object */;
+}
